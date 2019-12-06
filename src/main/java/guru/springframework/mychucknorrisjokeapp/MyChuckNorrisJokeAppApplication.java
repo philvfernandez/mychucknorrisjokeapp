@@ -1,6 +1,6 @@
 package guru.springframework.mychucknorrisjokeapp;
 
-import guru.springframework.mychucknorrisjokeapp.service.ChuckNorrisJokes;
+import guru.springframework.mychucknorrisjokeapp.service.ChuckNorrisJokesService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +9,7 @@ public class MyChuckNorrisJokeAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyChuckNorrisJokeAppApplication.class, args);
-		ChuckNorrisJokes cnj = new ChuckNorrisJokes();
+		ChuckNorrisJokesService cnj = new ChuckNorrisJokesService();
 		int i = 0;
 
 		while(i++ < 6) {
