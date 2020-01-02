@@ -9,7 +9,7 @@ public class MyChuckNorrisJokeAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyChuckNorrisJokeAppApplication.class, args);
-		JokeServiceImpl cnj = new JokeServiceImpl();
+		/* JokeServiceImpl cnj = new JokeServiceImpl();
 		int i = 0;
 
 		while(i++ < 6) {
@@ -17,7 +17,7 @@ public class MyChuckNorrisJokeAppApplication {
 			System.out.println(joke);
 			if(i == 5) break;
 		}
-		System.exit(1);
+		System.exit(1); */
 	}
 
 }
