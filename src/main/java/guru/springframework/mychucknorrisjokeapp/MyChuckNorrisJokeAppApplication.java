@@ -3,8 +3,10 @@ package guru.springframework.mychucknorrisjokeapp;
 import guru.springframework.mychucknorrisjokeapp.services.JokeServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
+@ImportResource("classpath:chuck-config.xml")
 public class MyChuckNorrisJokeAppApplication {
 
 	public static void main(String[] args) {
